@@ -47,7 +47,7 @@ git pushでGitHubに書き換えた内容が反映されている
 
 mainを軸にして、担当する場所ごとなどに枝を生やして作業できる
 
-git checkout /b (banch名）
+git checkout /b (branch名）
 
 branch名は機能や名前で
 
@@ -105,7 +105,7 @@ LGTM＝私にとって良いと思います
 
 mergeされたらリモートリポジトリからそのbranchは消える
 
-| Commnad | 意味 |
+| `Commnad` | 意味 |
 | ---------- | ---- |
 | `git push` | GitHubにPushする（useから始まるところをコピーすることが必要かも）|
 | `mkdir (ディレクトリ名)` |ディレクトリを作る |
