@@ -64,3 +64,21 @@ mainはきちんと動く状態、branchでなんやかんや動かしてダメ�
 git checkout mainでbranchを無かったことにできる
 
 自由自在に戻れるし、AとBのbranchで切り替えながら作業ができる
+
+## branchを切り替えながら作業する
+
+git branch→今いる場所の確認
+
+git checkout -b (branch名)→新しいbranchを作る
+
+git add (ディレクトリ名)
+
+git commit -m”(コミットメッセージ）
+
+git log→そのbranchのログを確認
+
+git checkout (いきたいbranch名）→いきたいbranchに移動
+
+commitを細かく分けるのはこういう作業をするため
+
+ピンポイントで作業を直したい時にとても良い
