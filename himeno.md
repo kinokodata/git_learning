@@ -26,3 +26,19 @@ git logで全てのログが見られる
 ## WebStormでの開き方
 
 開く＞kinokodata＞git_learningを選択して読み込む
+
+## ファイルを書き換える
+
+ターミナルを開いて行う
+
+git status→git add→git commit -m”コミットメッセージ”
+
+origin/main（赤字）→リモートリポジトリ
+
+HEAD→書き換えた最新
+
+git pushでGitHubに書き換えた内容が反映されている
+
+緑→書き加えたこと
+
+赤→消されたところ
