@@ -42,3 +42,25 @@ git pushでGitHubに書き換えた内容が反映されている
 緑→書き加えたこと
 
 赤→消されたところ
+
+## branch
+
+mainを軸にして、担当する場所ごとなどに枝を生やして作業できる
+
+git checkout /b (banch名）
+
+branch名は機能や名前で
+
+himeno/#1のように書くと良い
+
+書き加えたら　git add (ディレクトリ名)をする
+
+git commit -m”(コミットメッセージ）”でcommitする
+
+branchを切り替えるだけで、作業をなくすことができる
+
+mainはきちんと動く状態、branchでなんやかんや動かしてダメだったら
+
+git checkout mainでbranchを無かったことにできる
+
+自由自在に戻れるし、AとBのbranchで切り替えながら作業ができる
