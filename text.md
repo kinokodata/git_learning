@@ -19,6 +19,12 @@ git init
 git status
 今の状態を見る
 
+git log
+履歴を見る
+
 git add
 ステージング ，indexing
 目録に加える
+
+git commit -m "コミットメッセージ"
+コミットメッセージをつけてセーブデータを作る
