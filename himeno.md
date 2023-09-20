@@ -73,7 +73,7 @@ git checkout -b (branch名)→新しいbranchを作る
 
 git add (ディレクトリ名)
 
-git commit -m”(コミットメッセージ）
+git commit -m ”（コミットメッセージ）"
 
 git log→そのbranchのログを確認
 
