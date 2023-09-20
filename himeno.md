@@ -105,3 +105,19 @@ LGTM＝私にとって良いと思います
 
 mergeされたらリモートリポジトリからそのbranchは消える
 
+| Commnad | 意味 |
+| ---------- | ---- |
+| `git push` | GitHubにPushする（useから始まるところをコピーすることが必要かも）|
+| `mkdir (ディレクトリ名)` |ディレクトリを作る |
+|`cd (ディレクトリ名)` | 指定したディレクトリに移動する|
+|`ls` | ディレクトリの中身を見る |
+|`ls -la` | ディレクトリの中身を隠しフォルダを含めてみる |
+|`git clone (SSH)` | ローカルディレクトリにpull |
+|`git log ` | ログを見る |
+|`git status` | 今の状態を見る|
+|`git add (ディレクトリ名)` | addする |
+|`git commit -m”(コミットメッセージ)”`| commitする |
+|`git push` | GitHubにPushする（useから始まるところをコピーすることが必要かも）|
+|`git branch`|星があるところが今いるところ|
+|`git checkout /b (banch名）`| 新しいbranchを作って動く|
+|`git checkout main`|mainに戻る（checkout=branchを切り替える）|
