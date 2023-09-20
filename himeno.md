@@ -22,3 +22,7 @@ git clone (SSH)で自分のローカルディポジトリになる
 git logで全てのログが見られる
 
 「q」を押すと終わる
+
+## WebStormでの開き方
+
+開く＞kinokodata＞git_learningを選択して読み込む
