@@ -82,3 +82,25 @@ git checkout (いきたいbranch名）→いきたいbranchに移動
 commitを細かく分けるのはこういう作業をするため
 
 ピンポイントで作業を直したい時にとても良い
+
+## pull request
+
+ちゃんと書けたのでmain branchにか基本で欲しい時に送る
+
+merge requestと同じ
+
+git push→リモートリポジトリに送ろうとする
+
+useから始まるところに「こう書いてね」と出てくるのでマルッとコピー
+
+GitHubに戻り、codeに行くと上に緑のボタンが出てきてそれを押す
+
+create pull  request の緑のボタンを押す（チームリーダーに連絡が行く）
+
+確認してもらって、pull requestのところにメッセージが来る
+
+suggestをもらえることがあるので、それでよければ　commit suggestionを押す（コミットメッセージも送る）
+
+LGTM＝私にとって良いと思います
+
+mergeされたらリモートリポジトリからそのbranchは消える
