@@ -19,7 +19,7 @@ Subversionというものは以前に使われていた
 
 git clone (SSH)で自分のローカルディポジトリになる
 
-git logで全てのログが見られる
+`git log` で全てのログが見られる
 
 「q」を押すと終わる
 
@@ -47,7 +47,7 @@ git pushでGitHubに書き換えた内容が反映されている
 
 mainを軸にして、担当する場所ごとなどに枝を生やして作業できる
 
-git checkout /b (branch名）
+git checkout -b (branch名）
 
 branch名は機能や名前で
 
@@ -73,7 +73,7 @@ git checkout -b (branch名)→新しいbranchを作る
 
 git add (ディレクトリ名)
 
-git commit -m”(コミットメッセージ）
+git commit -m ”（コミットメッセージ）"
 
 git log→そのbranchのログを確認
 
